@@ -16,19 +16,19 @@
           <block type="movement_forward" id="5"></block>
         </statement>
         <next>
-          <block type="movement_stop" id="18">
+          <block type="movement_stop" id="6">
             <next>
-              <block type="controls_repeat" id="6" inline="true">
+              <block type="controls_repeat" id="7" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="7">
+                  <block type="math_number" id="8">
                     <field name="NUM">16250</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_right" id="8"></block>
+                  <block type="movement_right" id="9"></block>
                 </statement>
                 <next>
-                  <block type="movement_stop" id="28"></block>
+                  <block type="movement_stop" id="10"></block>
                 </next>
               </block>
             </next>
@@ -37,7 +37,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="48"></block>
+      <block type="movement_stop" id="11"></block>
     </next>
   </block>
 </xml>
